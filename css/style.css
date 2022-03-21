@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #d4d4d4;
+    text-align: center;
+    margin: 0;
+    
+}
+
+header{
+    background: rgb(156, 156, 156);
+    margin: auto;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+    display: inline;
+    width: 100%;
+    text-align: left ;
+    font-size: 138px;
+    margin-top: 0px ;
+    margin-bottom: 0px ;
+    margin-right: 600px ;
+    margin-left: 30px;    
+}
+
+.logo{
+
+    height: 200px;
+    width: 22%;
+    float: right;
+    margin-top: -203px ;
+    margin-bottom: 30px ;
+    margin-right: -95px ;
+    margin-left: 30px;  
+}
+
+
+.can{
+    background: rgb(190, 190, 190) ;
+    margin: 150px 850px 100px 300px ;
+    height: 670px;
+    width: 40%;
+    box-shadow: rgb(78, 78, 78) 5px 10px 15px 15px;
+
+}
+
+.inf{
+    background: rgb(196, 164, 164);
+    height: 200px;
+    width: 25%;
+    float: right;
+    margin-top: -26% ;
+    margin-right: 21% ;
+    box-shadow: rgb(78, 78, 78) 5px 10px 15px 15px;
+    padding: 30px;
+}
+
+.mp3{
+    background: rgb(190, 190, 190) ;
+    margin: 150px 850px 100px 300px ;
+    height: 550px;
+    width: 40%;
+    box-shadow: rgb(78, 78, 78) 5px 10px 15px 15px;
+    
+}
+#mp3{
+    margin-top: -38px;
+    width: 450px;
+}
+
+.video{
+
+    background: rgb(131, 130, 130);
+    height: 430px;
+    width: 38%;
+    float: right;
+    margin-top: -33% ;
+    margin-right: 8% ;
+    box-shadow: rgb(95, 95, 95) 5px 15px 15px 15px;
+    
+
+}
+
+
+.letra{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    min-height: 70vh;
+    width: fit-content;
+    margin: 0px 220px 0px 320px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+}
+
+footer{
+    background: rgb(78, 78, 78);
+    height: 100px;
+    color: rgb(180, 180, 180);
+    padding: 30px;
+}
+
+@media screen and (max-width: 700px){
+    .can, .mp3, .video{
+        flex-direction: column;
+    }
+}
